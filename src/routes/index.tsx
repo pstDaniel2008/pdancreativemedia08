@@ -90,7 +90,7 @@ function Nav() {
         >
           <a href="#top" className="flex items-center gap-2.5 group">
             <img
-              src={pdanLogo.url}
+              src= "https://id-preview--cccea24d-a3df-4380-a383-2db220c80a5a.lovable.app/__l5e/assets-v1/2e1a6bdf-e735-4cdb-ac59-f984096257c2/pdan-logo.png"
               alt="P. Dan Creative Media logo"
               className="h-9 w-9 object-contain drop-shadow-[0_0_12px_oklch(0.65_0.22_255/0.45)] transition-transform duration-500 group-hover:scale-110"
             />
@@ -417,18 +417,18 @@ function Services() {
 /* ---------- PORTFOLIO ---------- */
 type Cat = "all" | "design" | "web";
 const PROJECTS = [
-  { img: webPdanProject.url, title: "P.Dan Creative Media — Portfolio Site", tag: "Web Development", cat: "web" as const, span: "md:col-span-2" },
-  { img: designUwasFashion.url, title: "Uwa's Fashion Hub — Brand Flyer", tag: "Graphic Design", cat: "design" as const, span: "" },
-  { img: design60GreatGrace.url, title: "60 Years of Great Grace — Invite", tag: "Event Design", cat: "design" as const, span: "" },
-  { img: designHourDivine.url, title: "Hour of Divine Solution — Poster", tag: "Church Media", cat: "design" as const, span: "" },
+  { img: "src/assets/portfolio/web-pdan-project.png", title: "P.Dan Creative Media — Portfolio Site", tag: "Web Development", cat: "web" as const, span: "md:col-span-2" },
+  { img: "src/assets/portfolio/design-uwas-fashion.png", title: "Uwa's Fashion Hub — Brand Flyer", tag: "Graphic Design", cat: "design" as const, span: "" },
+  { img: "src/assets/portfolio/design-60-great-grace.png", title: "60 Years of Great Grace — Invite", tag: "Event Design", cat: "design" as const, span: "" },
+  { img: "src/assets/portfolio/design-hour-of-divine-solution.png", title: "Hour of Divine Solution — Poster", tag: "Church Media", cat: "design" as const, span: "" },
   
-  { img: designHolyGhost.url, title: "Praying in the Holy Ghost — Flyer", tag: "Church Media", cat: "design" as const, span: "" },
-  { img: designSenHair.url, title: "Sen Hair Care — Product Ad", tag: "Product Design", cat: "design" as const, span: "" },
-  { img: designMth102.url, title: "MTH 102 Tutorial — Campus Flyer", tag: "Educational Design", cat: "design" as const, span: "" },
-  { img: webEcommerce, title: "Fashion E-commerce Landing", tag: "Web Development", cat: "web" as const, span: "" },
-  { img: designIcfBirthday.url, title: "ICF Excos Birthday — Portrait Flyer", tag: "Graphic Design", cat: "design" as const, span: "" },
-  { img: designBirthdayRhema.url, title: "Rhema Youth Birthday — Social Post", tag: "Social Media Design", cat: "design" as const, span: "" },
-  { img: webAgency, title: "Creative Agency Portfolio", tag: "Web Development", cat: "web" as const, span: "md:col-span-2" },
+  { img: "src/assets/portfolio/design-praying-holy-ghost.png", title: "Praying in the Holy Ghost — Flyer", tag: "Church Media", cat: "design" as const, span: "" },
+  { img: "src/assets/portfolio/design-sen-hair-care.png", title: "Sen Hair Care — Product Ad", tag: "Product Design", cat: "design" as const, span: "" },
+  { img: "src/assets/portfolio/design-mth102-tutorial.png", title: "MTH 102 Tutorial — Campus Flyer", tag: "Educational Design", cat: "design" as const, span: "" },
+  { img: "src/assets/portfolio/web-ecommerce.jpg", title: "Fashion E-commerce Landing", tag: "Web Development", cat: "web" as const, span: "" },
+  { img: "src/assets/portfolio/design-icf-birthday.png", title: "ICF Excos Birthday — Portrait Flyer", tag: "Graphic Design", cat: "design" as const, span: "" },
+  { img: "src/assets/portfolio/design-birthday-rhema.png", title: "Rhema Youth Birthday — Social Post", tag: "Social Media Design", cat: "design" as const, span: "" },
+  { img: "src/assets/portfolio/web-agency.jpg", title: "Creative Agency Portfolio", tag: "Web Development", cat: "web" as const, span: "md:col-span-2" },
 ];
 
 function Portfolio() {
@@ -540,7 +540,7 @@ function About() {
             <div className="absolute -inset-3 rounded-[2rem] bg-gradient-neon opacity-30 blur-2xl" />
             <div className="relative rounded-[2rem] overflow-hidden border border-border glass shadow-elevated">
               <img
-                src={founderPhoto.url}
+                src= "src/assets/portfolio/founder-olaniyi.png"
                 alt="Olaniyi Oluwasolafunmi Daniel — Founder of P. Dan Creative Media"
                 loading="lazy"
                 width={720}
