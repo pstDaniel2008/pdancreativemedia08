@@ -430,10 +430,10 @@ const PROJECTS = [
   { img: "/portfolio/design-icf-birthday.png", title: "ICF Excos Birthday — Portrait Flyer", tag: "Graphic Design", cat: "design" as const, span: "" },
   { img: "/portfolio/design-birthday-rhema.png", title: "Rhema Youth Birthday — Social Post", tag: "Social Media Design", cat: "design" as const, span: "" },
 
-  { img: "/portfolio/logo.png", title: "Faith In Medicine Logo", tag: "Logo Design", cat: "design" as const, span: "" },
-  { img: "/portfolio/kea-honey.png", title: "Honey Promotion Flyer", tag: "product design", cat: "design" as const, span: "" },
-  { img: "/portfolio/cac_rhema_center_web.png", title: "Church Website", tag: "Web Development", cat: "web" as const, span: "" },
-  { img: "/portfolio/political campaign flyer.jpg", title: "Campaign Flyer", tag: "graphic design", cat: "design" as const, span: "" },
+  { img: "/portfolio/logo.png", title: "Faith In Medicine Logo - logo design", tag: "Logo Design", cat: "design" as const, span: "" },
+  { img: "/portfolio/kea-honey.png", title: "Honey Promotion Flyer - product ad", tag: "product design", cat: "design" as const, span: "" },
+  { img: "/portfolio/cac_rhema_center_web.png", title: "Church Website - landing page", tag: "Web Development", cat: "web" as const, span: "" },
+  { img: "/portfolio/political campaign flyer.jpg", title: "Campaign Flyer - poster", tag: "graphic design", cat: "design" as const, span: "" },
   { img: "/portfolio/call-to-bar.jpg", title: "Jotter Cover Design", tag: "graphic design", cat: "design" as const, span: "" },
   { img: "/portfolio/faith_in_medicine.png", title: "A Christian Community Website", tag: "Web Development", cat: "web" as const, span: "md:col-span-2" },
 ];
