@@ -429,9 +429,12 @@ const PROJECTS = [
   { img: "/portfolio/web-ecommerce.jpg", title: "Fashion E-commerce Landing", tag: "Web Development", cat: "web" as const, span: "" },
   { img: "/portfolio/design-icf-birthday.png", title: "ICF Excos Birthday — Portrait Flyer", tag: "Graphic Design", cat: "design" as const, span: "" },
   { img: "/portfolio/design-birthday-rhema.png", title: "Rhema Youth Birthday — Social Post", tag: "Social Media Design", cat: "design" as const, span: "" },
+
   { img: "/portfolio/logo.png", title: "Faith In Medicine Logo", tag: "Logo Design", cat: "design" as const, span: "" },
-  { img: "/portfolio/kea-honey.png", title: "Original Honey promotion flyer", tag: "Product design", cat: "design" as const, span: "" },
+  { img: "/portfolio/kea-honey.png", title: "Honey promotion flyer", tag: "product design", cat: "design" as const, span: "" },
   { img: "/portfolio/cac_rhema_center_web.png", title: "Church Website", tag: "Web Development", cat: "web" as const, span: "" },
+  { img: "/portfolio/political campaign flyer.jpg", title: "campaign flyers", tag: "graphic design", cat: "design" as const, span: "" },
+  { img: "/portfolio/call-to-bar.jpg", title: "jotter cover design", tag: "graphic design", cat: "design" as const, span: "" },
   { img: "/portfolio/faith_in_medicine.png", title: "A Christian Community website", tag: "Web Development", cat: "web" as const, span: "md:col-span-2" },
 ];
 
