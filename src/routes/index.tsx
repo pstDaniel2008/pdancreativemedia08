@@ -419,9 +419,9 @@ type Cat = "all" | "design" | "web";
 const PROJECTS = [
   { img: "/portfolio/web-pdan-project.png", title: "P.Dan Creative Media — Portfolio Site", tag: "Web Development", cat: "web" as const, span: "md:col-span-2" },
   { img: "/portfolio/design-uwas-fashion.png", title: "Uwa's Fashion Hub — Brand Flyer", tag: "Graphic Design", cat: "design" as const, span: "" },
-  { img: "/portfolio/web-agency.jpg", title: "Creative Agency Portfolio", tag: "Web Development", cat: "web" as const, span: "" },
   { img: "/portfolio/design-60-great-grace.png", title: "60 Years of Great Grace — Invite", tag: "Event Design", cat: "design" as const, span: "" },
   { img: "/portfolio/design-hour-of-divine-solution.png", title: "Hour of Divine Solution — Poster", tag: "Church Media", cat: "design" as const, span: "" },
+  { img: "/portfolio/web-agency.jpg", title: "Creative Agency Portfolio", tag: "Web Development", cat: "web" as const, span: "" },
   
   { img: "/portfolio/design-praying-holy-ghost.png", title: "Praying in the Holy Ghost — Flyer", tag: "Church Media", cat: "design" as const, span: "" },
   { img: "/portfolio/design-sen-hair-care.png", title: "Sen Hair Care — Product Ad", tag: "Product Design", cat: "design" as const, span: "" },
@@ -429,10 +429,10 @@ const PROJECTS = [
   { img: "/portfolio/web-ecommerce.jpg", title: "Fashion E-commerce Landing", tag: "Web Development", cat: "web" as const, span: "" },
   { img: "/portfolio/design-icf-birthday.png", title: "ICF Excos Birthday — Portrait Flyer", tag: "Graphic Design", cat: "design" as const, span: "" },
   { img: "/portfolio/design-birthday-rhema.png", title: "Rhema Youth Birthday — Social Post", tag: "Social Media Design", cat: "design" as const, span: "" },
-  { img: "/portfolio/cac_rhema_center_web.png", title: "Church Website", tag: "Web Development", cat: "web" as const, span: "" },
-  { img: "/portfolio/faith_in_medicine.png", title: "A Christian Community website", tag: "Web Development", cat: "web" as const, span: "md:col-span-2" },
   { img: "/portfolio/logo.png", title: "Faith In Medicine Logo", tag: "Logo Design", cat: "design" as const, span: "" },
   { img: "/portfolio/kea-honey.png", title: "Original Honey promotion flyer", tag: "Product design", cat: "design" as const, span: "" },
+  { img: "/portfolio/cac_rhema_center_web.png", title: "Church Website", tag: "Web Development", cat: "web" as const, span: "" },
+  { img: "/portfolio/faith_in_medicine.png", title: "A Christian Community website", tag: "Web Development", cat: "web" as const, span: "md:col-span-2" },
 ];
 
 function Portfolio() {
@@ -965,11 +965,11 @@ function SocialIcon({ href, label, icon: Icon }: { href: string; label: string; 
 
 /* ---------- TESTIMONIALS ---------- */
 const TESTIMONIALS = [
-  { img: "/testimonials/Testimonial (1).png", quote: "You're now pro on what you do now my Son. God bless you 🙏", author: "Client — WhatsApp" },
-  { img: "/testimonials/Testimonial (4).png", quote: "I am really glad to have patronised you 😊. Right from the first draft, I have seen things I got satisfied with and the final design is just so amazing 🤩! The timely delivery and competency is also really impressive 👍!", author: "Client — WhatsApp" },
-  { img: "/testimonials/Testimonial (3).png", quote: "Thank you so much for your consistency and commitment. I really appreciate you.", author: "Client — WhatsApp" },
-  { img: "/testimonials/Testimonial (5).png", quote: "So efficient and fast 🤗🤗. Thank you so much 👍", author: "Client — WhatsApp" },
-  { img: "/testimonials/Testimonial (4).png", quote: "Waoow, you too much! They are very good.", author: "Client — WhatsApp" },
+  { img: "/testimonials/Testimonial  (1).png", quote: "You're now pro on what you do now my Son. God bless you 🙏", author: "Client — WhatsApp" },
+  { img: "/testimonials/Testimonial  (4).png", quote: "I am really glad to have patronised you 😊. Right from the first draft, I have seen things I got satisfied with and the final design is just so amazing 🤩! The timely delivery and competency is also really impressive 👍!", author: "Client — WhatsApp" },
+  { img: "/testimonials/Testimonial  (3).png", quote: "Thank you so much for your consistency and commitment. I really appreciate you.", author: "Client — WhatsApp" },
+  { img: "/testimonials/Testimonial  (5).png", quote: "So efficient and fast 🤗🤗. Thank you so much 👍", author: "Client — WhatsApp" },
+  { img: "/testimonials/Testimonial  (4).png", quote: "Waoow, you too much! They are very good.", author: "Client — WhatsApp" },
 ];
 
 function Testimonials() {
