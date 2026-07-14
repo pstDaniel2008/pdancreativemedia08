@@ -428,7 +428,9 @@ const PROJECTS = [
   { img: "/portfolio/web-ecommerce.jpg", title: "Fashion E-commerce Landing", tag: "Web Development", cat: "web" as const, span: "" },
   { img: "/portfolio/design-icf-birthday.png", title: "ICF Excos Birthday — Portrait Flyer", tag: "Graphic Design", cat: "design" as const, span: "" },
   { img: "/portfolio/design-birthday-rhema.png", title: "Rhema Youth Birthday — Social Post", tag: "Social Media Design", cat: "design" as const, span: "" },
+  { img: "/portfolio/cac_rhema-center_web.png", title: "Church Website", tag: "Web Development", cat: "web" as const, span: "" },
   { img: "/portfolio/web-agency.jpg", title: "Creative Agency Portfolio", tag: "Web Development", cat: "web" as const, span: "md:col-span-2" },
+  { img: "/portfolio/faith_in_medicine.png", title: "A Christian Community website", tag: "Web Development", cat: "web" as const, span: "md:col-span-2" },
 ];
 
 function Portfolio() {
@@ -540,7 +542,7 @@ function About() {
             <div className="absolute -inset-3 rounded-[2rem] bg-gradient-neon opacity-30 blur-2xl" />
             <div className="relative rounded-[2rem] overflow-hidden border border-border glass shadow-elevated">
               <img
-                src= "src/assets/portfolio/founder-olaniyi.png"
+                src= "/portfolio/founder-olaniyi.png"
                 alt="Olaniyi Oluwasolafunmi Daniel — Founder of P. Dan Creative Media"
                 loading="lazy"
                 width={720}
