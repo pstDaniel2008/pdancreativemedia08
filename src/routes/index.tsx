@@ -914,7 +914,7 @@ function Footer() {
         </div>
         <div className="w-full flex flex-col md:flex-row items-center justify-between gap-3">
           <div className="flex items-center gap-3">
-            <img src={pdanLogo.url} alt="P. Dan Creative Media" className="h-8 w-8 object-contain" />
+            <img src="https://id-preview--cccea24d-a3df-4380-a383-2db220c80a5a.lovable.app/__l5e/assets-v1/2e1a6bdf-e735-4cdb-ac59-f984096257c2/pdan-logo.png" alt="P. Dan Creative Media" className="h-8 w-8 object-contain" />
             <div className="text-muted-foreground">© 2026 P. Dan Creative Media. All rights reserved.</div>
           </div>
           <div className="text-muted-foreground italic">
