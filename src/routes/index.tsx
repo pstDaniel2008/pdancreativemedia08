@@ -429,6 +429,8 @@ const PROJECTS = [
   { img: "/portfolio/design-icf-birthday.png", title: "ICF Excos Birthday — Portrait Flyer", tag: "Graphic Design", cat: "design" as const, span: "" },
   { img: "/portfolio/design-birthday-rhema.png", title: "Rhema Youth Birthday — Social Post", tag: "Social Media Design", cat: "design" as const, span: "" },
   { img: "/portfolio/cac_rhema-center_web.png", title: "Church Website", tag: "Web Development", cat: "web" as const, span: "" },
+  { img: "/portfolio/logo.png", title: "Faith In Medicine Logo", tag: "Logo Design", cat: "design" as const, span: "" },
+  { img: "/portfolio/kea-honey.png", title: "Original Honey promotion flyer", tag: "Product design", cat: "design" as const, span: "" },
   { img: "/portfolio/web-agency.jpg", title: "Creative Agency Portfolio", tag: "Web Development", cat: "web" as const, span: "md:col-span-2" },
   { img: "/portfolio/faith_in_medicine.png", title: "A Christian Community website", tag: "Web Development", cat: "web" as const, span: "md:col-span-2" },
 ];
@@ -963,11 +965,11 @@ function SocialIcon({ href, label, icon: Icon }: { href: string; label: string; 
 
 /* ---------- TESTIMONIALS ---------- */
 const TESTIMONIALS = [
-  { img: testimonial1.url, quote: "You're now pro on what you do now my Son. God bless you 🙏", author: "Client — WhatsApp" },
-  { img: testimonial4.url, quote: "I am really glad to have patronised you 😊. Right from the first draft, I have seen things I got satisfied with and the final design is just so amazing 🤩! The timely delivery and competency is also really impressive 👍!", author: "Client — WhatsApp" },
-  { img: testimonial3.url, quote: "Thank you so much for your consistency and commitment. I really appreciate you.", author: "Client — WhatsApp" },
-  { img: testimonial5.url, quote: "So efficient and fast 🤗🤗. Thank you so much 👍", author: "Client — WhatsApp" },
-  { img: testimonial2.url, quote: "Waoow, you too much! They are very good.", author: "Client — WhatsApp" },
+  { img: "/testimonials/Testimonial (1).png", quote: "You're now pro on what you do now my Son. God bless you 🙏", author: "Client — WhatsApp" },
+  { img: "/testimonials/Testimonial (4).png", quote: "I am really glad to have patronised you 😊. Right from the first draft, I have seen things I got satisfied with and the final design is just so amazing 🤩! The timely delivery and competency is also really impressive 👍!", author: "Client — WhatsApp" },
+  { img: "/testimonials/Testimonial (3).png", quote: "Thank you so much for your consistency and commitment. I really appreciate you.", author: "Client — WhatsApp" },
+  { img: "/testimonials/Testimonial (5).png", quote: "So efficient and fast 🤗🤗. Thank you so much 👍", author: "Client — WhatsApp" },
+  { img: "/testimonials/Testimonial (4).png", quote: "Waoow, you too much! They are very good.", author: "Client — WhatsApp" },
 ];
 
 function Testimonials() {
