@@ -417,18 +417,18 @@ function Services() {
 /* ---------- PORTFOLIO ---------- */
 type Cat = "all" | "design" | "web";
 const PROJECTS = [
-  { img: "src/assets/portfolio/web-pdan-project.png", title: "P.Dan Creative Media — Portfolio Site", tag: "Web Development", cat: "web" as const, span: "md:col-span-2" },
-  { img: "src/assets/portfolio/design-uwas-fashion.png", title: "Uwa's Fashion Hub — Brand Flyer", tag: "Graphic Design", cat: "design" as const, span: "" },
-  { img: "src/assets/portfolio/design-60-great-grace.png", title: "60 Years of Great Grace — Invite", tag: "Event Design", cat: "design" as const, span: "" },
-  { img: "src/assets/portfolio/design-hour-of-divine-solution.png", title: "Hour of Divine Solution — Poster", tag: "Church Media", cat: "design" as const, span: "" },
+  { img: "/portfolio/web-pdan-project.png", title: "P.Dan Creative Media — Portfolio Site", tag: "Web Development", cat: "web" as const, span: "md:col-span-2" },
+  { img: "/portfolio/design-uwas-fashion.png", title: "Uwa's Fashion Hub — Brand Flyer", tag: "Graphic Design", cat: "design" as const, span: "" },
+  { img: "/portfolio/design-60-great-grace.png", title: "60 Years of Great Grace — Invite", tag: "Event Design", cat: "design" as const, span: "" },
+  { img: "/portfolio/design-hour-of-divine-solution.png", title: "Hour of Divine Solution — Poster", tag: "Church Media", cat: "design" as const, span: "" },
   
-  { img: "src/assets/portfolio/design-praying-holy-ghost.png", title: "Praying in the Holy Ghost — Flyer", tag: "Church Media", cat: "design" as const, span: "" },
-  { img: "src/assets/portfolio/design-sen-hair-care.png", title: "Sen Hair Care — Product Ad", tag: "Product Design", cat: "design" as const, span: "" },
-  { img: "src/assets/portfolio/design-mth102-tutorial.png", title: "MTH 102 Tutorial — Campus Flyer", tag: "Educational Design", cat: "design" as const, span: "" },
-  { img: "src/assets/portfolio/web-ecommerce.jpg", title: "Fashion E-commerce Landing", tag: "Web Development", cat: "web" as const, span: "" },
-  { img: "src/assets/portfolio/design-icf-birthday.png", title: "ICF Excos Birthday — Portrait Flyer", tag: "Graphic Design", cat: "design" as const, span: "" },
-  { img: "src/assets/portfolio/design-birthday-rhema.png", title: "Rhema Youth Birthday — Social Post", tag: "Social Media Design", cat: "design" as const, span: "" },
-  { img: "src/assets/portfolio/web-agency.jpg", title: "Creative Agency Portfolio", tag: "Web Development", cat: "web" as const, span: "md:col-span-2" },
+  { img: "/portfolio/design-praying-holy-ghost.png", title: "Praying in the Holy Ghost — Flyer", tag: "Church Media", cat: "design" as const, span: "" },
+  { img: "/portfolio/design-sen-hair-care.png", title: "Sen Hair Care — Product Ad", tag: "Product Design", cat: "design" as const, span: "" },
+  { img: "/portfolio/design-mth102-tutorial.png", title: "MTH 102 Tutorial — Campus Flyer", tag: "Educational Design", cat: "design" as const, span: "" },
+  { img: "/portfolio/web-ecommerce.jpg", title: "Fashion E-commerce Landing", tag: "Web Development", cat: "web" as const, span: "" },
+  { img: "/portfolio/design-icf-birthday.png", title: "ICF Excos Birthday — Portrait Flyer", tag: "Graphic Design", cat: "design" as const, span: "" },
+  { img: "/portfolio/design-birthday-rhema.png", title: "Rhema Youth Birthday — Social Post", tag: "Social Media Design", cat: "design" as const, span: "" },
+  { img: "/portfolio/web-agency.jpg", title: "Creative Agency Portfolio", tag: "Web Development", cat: "web" as const, span: "md:col-span-2" },
 ];
 
 function Portfolio() {
