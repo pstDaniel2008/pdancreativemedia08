@@ -972,7 +972,7 @@ const TESTIMONIALS = [
   { img: "/testimonials/Testimonial  (4).png", quote: "I am really glad to have patronised you 😊. Right from the first draft, I have seen things I got satisfied with and the final design is just so amazing 🤩! The timely delivery and competency is also really impressive 👍!", author: "Client — WhatsApp" },
   { img: "/testimonials/Testimonial  (3).png", quote: "Thank you so much for your consistency and commitment. I really appreciate you.", author: "Client — WhatsApp" },
   { img: "/testimonials/Testimonial  (5).png", quote: "So efficient and fast 🤗🤗. Thank you so much 👍", author: "Client — WhatsApp" },
-  { img: "/testimonials/Testimonial  (4).png", quote: "Waoow, you too much! They are very good.", author: "Client — WhatsApp" },
+  { img: "/testimonials/Testimonial  (2).png", quote: "Waoow, you too much! They are very good.", author: "Client — WhatsApp" },
 ];
 
 function Testimonials() {
